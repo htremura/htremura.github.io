@@ -1,0 +1,86 @@
+body {
+    margin: 0 10% 10% 0;
+    color: #eee;
+    background-color: #111;
+}
+
+#contents{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-width: 80em; /* default is 54em */
+    z-index: 1;
+}
+
+.content {
+    color:#000;
+    text-align:left;
+    border-radius: 0.2em;
+    width: auto;
+    margin: auto;
+    padding: 2em;
+    font-size: 1.75em;
+    background-color:#fff;
+    border: solid #000 0.05em;
+    box-shadow: #000 0.5em 0.5em 0;
+}
+
+.content a {
+    text-decoration: underline;
+}
+
+.content a:hover {
+    color:purple;
+}
+
+#ui-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+#menu a img  {
+    height: 4em;
+    width: 4    em;
+    margin: 0.1em;
+}
+
+#menu-core {
+    background: #fff;
+    border-radius: 5px;
+    border-collapse: separate;
+}
+
+input[type=text] {
+    background-color: #000;
+    color: white;
+}
+
+@media screen and (orientation:portrait) {
+	body {
+	margin: 0 0 0 0;
+	}
+	
+	.content {
+	border-radius: 0.1em;
+	padding: 1.25em;
+	font-size:4em;
+	box-shadow: #000 0.2em 0.2em 0;
+	}
+}
+
+.font-thinstix {
+	font-family: thinstix;
+}
+
+.font-spaceloot {
+	font-family: spaceloot;
+}

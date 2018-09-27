@@ -1,34 +1,32 @@
 	<!DOCTYPE html>
 <html>
-<head>
-	<title>Heitor Tremura</title>
-</head>
-<body>
-	<div id="ui-bar">
-		<div id="ui-bar-body">
-			<nav id="menu" role="navigation">
-				<ul>
-					<li class="menu-item" id="menu-item-toggle-closed"><a tabindex="0"></a></li>
-					<li class="menu-item" id="menu-item-toggle"><a tabindex="0"></a></li>
-				</ul>
-				<table id="menu-core">
-					<tr class="menu-item" id="menu-item-meters">
-						<td colspan="3" class="meter health"><div class="inner"></div><span>Health</span></td>
-					</tr>
-					<tr class="menu-item" id="menu-item-buttons">
-						<td class="menu-item" id="menu-item-portfolio"><a tabindex="0"></a></td>
-						<td class="menu-item" id="menu-item-settings"><a tabindex="0"></a></td>
-						<td class="menu-item" id="menu-item-home"><a tabindex="0"></a></td>
-					</tr>
-				</table>
-			</nav>
+	<head>
+		<title>Heitor Tremura</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="ui-bar">
+			<div id="ui-bar-body">
+				<nav id="menu" role="navigation">
+					<ul>
+						<li class="menu-item" id="menu-item-toggle-closed"><a tabindex="0"><img src="images/menu-open.png"></a></li>
+						<li class="menu-item" id="menu-item-toggle"><a tabindex="0"><img src="images/menu-close.png"></a></li>
+					</ul>
+					<table id="menu-core">
+						<tr class="menu-item" id="menu-item-buttons">
+							<td class="menu-item" id="menu-item-home"><a tabindex="0" href="index.html"><img src="images/home.png"></a></td>
+							<td class="menu-item" id="menu-item-portfolio"><a tabindex="0" href="index.html"><img src="images/portfolio.png"></a></td>
+						</tr>
+					</table>
+				</nav>
+			</div>
 		</div>
-	</div>
-	<style>
-		body {
-			background-image: url("images/marble.jpg");
-		}
-	</style>
-	<h1>Welcome to my website!</h1>
-</body>
+		<div id="contents">
+			<div class="content">
+				Here is my website!
+			</div>
+		</div>
+		<script src="javafunctions.js"></script>
+	</body>
 </html>
